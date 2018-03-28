@@ -1,0 +1,15 @@
+<div class="jumbotron">
+  Here are locations suggestions
+  {{statusRes}}
+  {{hasMore}}
+    <div class="list-group" *ngFor="let loc of locations" >
+  {{loc.country_id}}
+  {{loc.city_name}}
+  {{loc.entity_type}}
+  {{loc.country_name}}
+      <a href="#" class="list-group-item list-group-item-action" >
+         ABC
+      </a>
+     
+    </div>
+  </div>
