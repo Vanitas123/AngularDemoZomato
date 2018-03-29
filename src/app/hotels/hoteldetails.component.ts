@@ -13,4 +13,7 @@ export class HotelDetailsComponent{
         private route: ActivatedRoute,
         private router: Router,
     ){}
+    searchHotelsByLocation(value:Event){
+      console.log("Seraching");
+    }
 }

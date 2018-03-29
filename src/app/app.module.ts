@@ -10,6 +10,7 @@ import { HotelDetailsComponent } from './hotels/hoteldetails.component';
 import { RouterModule, Routes,ActivatedRoute,ParamMap } from '@angular/router';
 import { LocationService } from './locations/locations.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     ],
   imports: [
     BrowserModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [LocationService],
   bootstrap: [AppComponent]
